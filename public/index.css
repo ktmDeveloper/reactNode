@@ -1,5 +1,49 @@
 
-.card{
-    margin:10px 0;
-    padding:15px;
+body {
+    background: #64b5f6;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
 }
+.card{
+    max-width: 690px;
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid #ffd54f;
+    /* border-radius: 25px; */
+    background-color:#ffd54f;
+    -webkit-box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px rgb(43, 42, 42);
+    padding: 30px;
+    position: relative;
+  }
+  
+  .card,
+  .card::before,
+  .card::after {
+    /* Styles to distinguish sheets from one another */
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    border: 1px solid #bbb;
+  }
+  
+  .card::before,
+  .card::after {
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    background-color: #ffd54f;
+  }
+  
+  .card::before {
+    right: 15px;
+    top: 0;
+    transform: rotate(-2deg);
+    z-index: -1;
+  }
+  
+  .card::after {
+    top: 5px;
+    right: -15px;
+    transform: rotate(2deg);
+    z-index: -2;
+  }

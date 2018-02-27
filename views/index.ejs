@@ -6,12 +6,15 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/index.css">
+       
+    <script type="text/javascript">
+      window.initialData = <%- JSON.stringify(initialData) -%>
+    </script>
+
   </head>
   <body>
-    <div id="root" class="container">
-      Loading...
-    </div>
-
+    <div id="root" class="container"><%- initialMarkup -%></div>
+    
     <script src="/bundle.js" charset="utf-8"></script>
   </body>
 </html>

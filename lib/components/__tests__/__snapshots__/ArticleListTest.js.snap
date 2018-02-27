@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders correctly 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="article card-block"
+    >
+      <h4
+        className="card-title"
+      />
+      <span
+        className="card-subtitle mb-2 text-muted"
+      >
+        Invalid Date
+      </span>
+      <p
+        className="card-test"
+      />
+      <a
+        className="card-link"
+        href={undefined}
+      >
+         
+      </a>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <div
+      className="article card-block"
+    >
+      <h4
+        className="card-title"
+      />
+      <span
+        className="card-subtitle mb-2 text-muted"
+      >
+        Invalid Date
+      </span>
+      <p
+        className="card-test"
+      />
+      <a
+        className="card-link"
+        href={undefined}
+      >
+         
+      </a>
+    </div>
+  </div>
+</div>
+`;

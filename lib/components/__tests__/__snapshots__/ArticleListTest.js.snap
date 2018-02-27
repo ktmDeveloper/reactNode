@@ -8,7 +8,7 @@ exports[`ArticleList renders correctly 1`] = `
     <div
       className="article card-block"
     >
-      <h4
+      <h1
         className="card-title"
       />
       <span
@@ -33,7 +33,7 @@ exports[`ArticleList renders correctly 1`] = `
     <div
       className="article card-block"
     >
-      <h4
+      <h1
         className="card-title"
       />
       <span

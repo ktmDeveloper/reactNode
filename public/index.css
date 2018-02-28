@@ -3,6 +3,7 @@ body {
     background: #64b5f6;
     font-family: 'Amatic SC', cursive;
     font-weight: 900;
+    padding-top: 15px;
 }
 .card{
     max-width: 690px;
@@ -47,3 +48,14 @@ body {
     transform: rotate(2deg);
     z-index: -2;
   }
+.search{
+  max-width: 690px;
+  margin: 25px auto;
+}
+
+.search .form-control{
+  border: 1px solid #ffd54f;
+}
+.search button{
+  border: 1px solid #ffd54f;
+}
